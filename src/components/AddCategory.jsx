@@ -15,8 +15,8 @@ export const AddCategory = ({ onNewCategory }) => {
 
     if (cleanInputValue.length <= 1) return;
 
-    onNewCategory(cleanInputValue);
     setInputValue("");
+    onNewCategory(cleanInputValue);
   };
 
   return (
